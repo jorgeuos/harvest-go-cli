@@ -1,0 +1,76 @@
+{
+    "projects": [
+        {
+            "id": 12345678,
+            "name": "Awesome Project",
+            "code": "12345678",
+            "is_active": true,
+            "is_billable": true,
+            "is_fixed_fee": false,
+            "bill_by": "Project",
+            "budget": null,
+            "budget_by": "project_cost",
+            "budget_is_monthly": false,
+            "notify_when_over_budget": false,
+            "over_budget_notification_percentage": 80.0,
+            "show_budget_to_all": false,
+            "created_at": "2022-05-02T09:30:26Z",
+            "updated_at": "2022-05-02T09:30:41Z",
+            "starts_on": null,
+            "ends_on": null,
+            "over_budget_notification_date": null,
+            "notes": "This is a line\r\nThis is line no 2\r\nThis is line no 3\r\n",
+            "cost_budget": 600000.0,
+            "cost_budget_include_expenses": false,
+            "hourly_rate": 1200.0,
+            "fee": null,
+            "client": {
+                "id": 87654321,
+                "name": "Awesome Client 1",
+                "currency": "SEK"
+            }
+        },
+        {
+            "id": 2345789,
+            "name": "Awesome Project 2",
+            "code": "2345789",
+            "is_active": true,
+            "is_billable": true,
+            "is_fixed_fee": false,
+            "bill_by": "Project",
+            "budget": null,
+            "budget_by": "none",
+            "budget_is_monthly": false,
+            "notify_when_over_budget": false,
+            "over_budget_notification_percentage": 80.0,
+            "show_budget_to_all": false,
+            "created_at": "2022-05-02T09:26:52Z",
+            "updated_at": "2022-05-02T09:26:59Z",
+            "starts_on": null,
+            "ends_on": null,
+            "over_budget_notification_date": null,
+            "notes": "This is a line\r\nThis is line no 2\r\nThis is line no 3\r\n",
+            "cost_budget": null,
+            "cost_budget_include_expenses": false,
+            "hourly_rate": 1150.0,
+            "fee": null,
+            "client": {
+                "id": 98765432,
+                "name": "Awesome Client 2",
+                "currency": "SEK"
+            }
+        }
+    ],
+    "per_page": 100,
+    "total_pages": 2,
+    "total_entries": 177,
+    "next_page": 2,
+    "previous_page": null,
+    "page": 1,
+    "links": {
+        "first": "https://api.harvestapp.com/v2/projects?page=1&per_page=100&ref=first",
+        "next": "https://api.harvestapp.com/v2/projects?page=2&per_page=100&ref=next",
+        "previous": null,
+        "last": "https://api.harvestapp.com/v2/projects?page=2&per_page=100&ref=last"
+    }
+}
